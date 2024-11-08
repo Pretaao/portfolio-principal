@@ -229,7 +229,63 @@
 
 /*AREA DE PROJETOS*/
 
-.projects-title {
+#projects-title {
   color: #fff;
   text-align: center;
+  padding-bottom: 100px;
+}
+
+.project-card {
+  width: 300px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.project-card a {
+  color: inherit;
+  text-decoration: none;
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+.project-card-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.project-card-content {
+  padding: 15px;
+  background-color: #111;
+}
+
+.project-card-title {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #fff;
+  background-color: #111;
+}
+
+.project-card-description {
+  font-size: 1em;
+  color: #fff;
+  background-color: #111;
+}
+
+.project-card:hover {
+  transform: scale(1.3);
+}
+
+
+.projects-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 10px;
+  padding-bottom: 100px;
 }
